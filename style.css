@@ -382,7 +382,7 @@ body {
   width: 700px;
   text-align: justify;
 }
-.content-adc h3, p{
+.content-adc h3, .content-adc p{
   margin-top: 20px;
 }
 .content-sun-text h3, .content-adc h3{
