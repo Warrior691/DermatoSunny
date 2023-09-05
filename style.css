@@ -93,7 +93,7 @@ body {
 }
 .content-text-est{
   position: relative;
-  background: #fff;
+  background: var(--branco);
   right: 220px;
   text-align: center;
   font-size: 46px;
@@ -150,10 +150,13 @@ body {
   font-size: 36px;
   text-align: center;
   margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .text-index p{
   color: var(--branco);
   padding: 15px;
+  font-size: 20px;
 }
 /* terceira parte */
 .content-tree{
@@ -177,8 +180,8 @@ body {
 .type{
   -webkit-box-shadow: 6px 3px 9px -2px rgba(0,0,0,0.72); 
   box-shadow: 6px 3px 9px -2px rgba(0,0,0,0.72);
-  width: 200px;
-  height: 300px;
+  width: 250px;
+  /* height: 400px; */
   text-align: center;
   padding: 8px;
   margin: 45px 0;
@@ -192,11 +195,14 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   margin-top: 15px;
+  padding: 5px;
+  text-align: justify;
 }
 .type-img img{
   width: 100px;
   height: 100px;
-  border-radius: 50px;
+  border-radius: 50%;
+  border: 4px solid var(--amarelo);
 }
 /* Quarta parte */
 
@@ -325,4 +331,79 @@ body {
 }
 .author p{
   color: var(--branco);
+}
+
+/*Atualizações*/
+
+.content-exm{
+  width: 70vw;
+  text-align: center;
+  margin: 30px auto;
+  position: relative;
+}
+.exm{
+  position: relative;
+  margin: 30px auto;
+  border: 2px solid var(--preto);
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+}
+.exm-title h3{
+  font-weight: bold;
+  font-size: 46px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.exm-text p{
+  text-align: justify;
+  padding: 10px;
+  font-size: 20px;
+}
+.img-afi img{
+  width: 40px;
+  position: absolute;
+  top: 25px;
+  left: 23rem;
+}
+
+/* Sacrilégio da Programação*/
+.content-sun{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-sun-img img{
+  width: 600px;
+}
+.content-sun-text, .content-adc{
+  padding: 10px;
+  width: 700px;
+  text-align: justify;
+}
+.content-adc h3, p{
+  margin-top: 20px;
+}
+.content-sun-text h3, .content-adc h3{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.content-sun-text p, .content-adc p{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.content-frase{
+  margin-top: 50px;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+.content-frase span{
+  font-size: 40px;
+  font-family: 'Parisienne', sans-serif;
+  text-transform: none;
 }
